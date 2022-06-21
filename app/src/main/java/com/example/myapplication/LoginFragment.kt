@@ -47,7 +47,9 @@ class LoginFragment : Fragment() {
 
 
         binding.btnSignUp.setOnClickListener {
-            (activity as MainActivity).showFragment(SignUpFragment())
+            val  intent = Intent(context, DashBoardActivity::class.java)
+          startActivity(intent)
+           // (activity as MainActivity).showFragment(SignUpFragment())
         }
         binding.txtPasswordForgot.setOnClickListener {
             (activity as MainActivity).showFragment(ForgotPassWordFragment())

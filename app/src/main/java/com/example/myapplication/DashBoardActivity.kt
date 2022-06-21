@@ -12,5 +12,12 @@ class DashBoardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dash_board)
         binding=ActivityDashBoardBinding.inflate(layoutInflater)
 
+        val item = arrayListOf<DashBoardImageModal>()
+        item.add(DashBoardImageModal(R.drawable.img_peacock))
+
+
+        binding.recy.adapter=DashBoardAdapter(item)
+
+
     }
 }
