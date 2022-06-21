@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="ghfffffff"
         android:textSize="30dp"
+
         android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
