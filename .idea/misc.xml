@@ -6,8 +6,15 @@
         <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_background_edittext.xml" value="0.1125" />
         <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_button_background.xml" value="0.1125" />
         <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/cutton_button_background.xml" value="0.1055" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dash_board.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.18848167539267016" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main_screen1.xml" value="0.4658203125" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main_screen2.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.13688212927756654" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_forgot_pass_word.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_login.xml" value="0.271875" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_sign_up.xml" value="0.14457831325301204" />
+        <entry key="..\:/Users/Noorish/AndroidStudioProjects/MyApplication/app/src/main/res/layout/row_items.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>
