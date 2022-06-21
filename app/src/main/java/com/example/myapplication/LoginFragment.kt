@@ -2,10 +2,10 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.FragmentLoginBinding
 
 
@@ -24,6 +24,21 @@ class LoginFragment : Fragment() {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_login, container, false)
         binding=FragmentLoginBinding.inflate(inflater)
+        binding.btnLogin.setOnClickListener {
+
+           val inputName = binding.etEmail.text.toString()
+            val bundle =Bundle()
+            bundle.putString(ConstantIntent.Name,inputName)
+
+             val fragment=SignUpFragment()
+            fragment.arguments=bundle
+           fragmentManager?.beginTransaction()?.replace(R.id.container,fragment)?.commit()
+
+
+
+//          val  intent = Intent(context, DashBoardActivity::class.java)
+//            startActivity(intent)
+        }
         return binding.root
     }
 
@@ -37,18 +52,18 @@ class LoginFragment : Fragment() {
         binding.txtPasswordForgot.setOnClickListener {
             (activity as MainActivity).showFragment(ForgotPassWordFragment())
         }
-//        binding.btnLogin.setOnClickListener {
-//          val  intent = Intent(context, DashBoardActivity::class.java)
-//            startActivity(intent)
-//        }
-        binding.btnLogin.setOnClickListener {
-            val ii = Intent(context, SignUp::class.java)
-            ii.putExtra(Constant.Name, "")
-            ii.putExtra(Constant.PassWord, "")
-            startActivity(ii)
 
-        }
+
     }
 
 
 }
+
+
+//binding.btnLogin.setOnClickListener {
+//    val ii = Intent(context, SignUp::class.java)
+//    ii.putExtra(Constant.Name, "")
+//    ii.putExtra(Constant.PassWord, "")
+//    startActivity(ii)
+//
+//}
